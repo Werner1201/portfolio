@@ -1,0 +1,76 @@
+html, body{
+    padding: 0;
+    margin: 0;
+}
+
+#basebody{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#navigation{
+    background-color: brown; padding: 10px;
+    width: 20%;
+    height: 100vh;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+
+svg:hover{
+    --ani-play-state: running;
+    & #euMxTzsFPv02{
+        animation-play-state: var(--ani-play-state);
+        animation-iteration-count: 2;
+    }
+    & #euMxTzsFPv04{
+        animation-play-state: var(--ani-play-state);
+        animation-iteration-count: 2;
+    }
+    & #euMxTzsFPv06_to{
+        animation-play-state: var(--ani-play-state);
+        animation-iteration-count: 2;
+    }
+    & #euMxTzsFPv08_to{
+        animation-play-state: var(--ani-play-state);
+        animation-iteration-count: 2;
+    }
+    
+}
+
+
+
+#navigation:hover{
+    transition: 2s;
+    width: 20%;
+}
+
+#nav-list{
+   
+    background-color: blue;
+    list-style: none;
+}
+
+.nav-item{
+
+    background-color: chartreuse;
+    padding: 25%;
+    margin: 3%;
+}
+
+#intro-list{
+    width: 70%;
+    padding-right: 5vw;
+    padding-left: 5vw;
+}
+
+.intro-item{
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding-top: 40vh;
+    background-color: aliceblue;
+}
